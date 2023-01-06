@@ -1,0 +1,720 @@
+
+body
+{
+    background-color: rgb(255,162,9);
+    background-color: rgb(255,171,10);
+    background-color: rgb(255,178,10);
+    background-color: rgba(255,186,12,0);
+    /* background: url("img/dark-honeycomb.png") !important; from www.subtlepatterns.com */
+
+    background: linear-gradient(rgb(38,38,38,0.7), rgb(38,38,38,0.7)), url("img/copper-g02eade71b_1920_6.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-color: #3a3a3a;
+
+    margin-top: 100px;
+    /*color: white;*/
+
+
+   
+    /*opacity: 0.2;
+    filter: alpha(opacity=20);*/
+
+}
+
+/* Navbar */
+
+nav
+{
+    background: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
+    /*height: 5em;*/
+    
+}
+
+nav img
+{
+    position: relative;
+    width: 250px;
+    /*left: -10px;*/
+    /*top: -20px;*/
+    /*padding: 10px;*/
+    margin-left: 10px;
+}
+
+.navbar-dark .navbar-toggler-icon 
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler
+{
+    border: 2px solid white !important;
+    border-radius: 10px !important; 
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover /*gdy najechany kursorem*/
+{
+    border: 2px solid rgb(255,162,9) !important;
+    border-radius: 10px;
+}
+
+.navbar-toggler:focus /*gdy klikniety*/
+{
+    border: 2px solid rgb(255,162,9);
+    border-radius: 10px;
+    box-shadow: none !important;
+}
+
+
+.navbar-nav li
+{
+    text-transform: uppercase;   
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    border: 2px solid rgb(255,162,9,0);
+}
+
+.navbar-nav li:hover
+{
+    border: 2px solid rgb(255,162,9);
+    border-radius: 10px;
+}
+
+
+/*Stopka*/
+
+.gorny .flex-container
+{
+    background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
+    text-align: center;
+}
+
+
+.gorny .flex-container
+{
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.dolny
+{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.copy
+{
+    text-align: center;
+    margin-top: 28px;
+}
+
+
+
+.flex-item
+{
+    color: white;
+}
+
+.flex-item img
+{
+    width: 70%;
+}
+
+.kontakt
+{
+    margin-top: 10px;
+    list-style-type: none;
+    width: 250px;
+}
+
+.kontakt img
+{
+    width: 15%;
+}
+
+.kontakt a
+{
+    text-decoration: none;
+    color: rgb(255,162,9);
+}
+
+.kontakt i
+{
+    color: rgb(255,162,9);
+
+}
+
+.kontakt li p
+{
+    display: inline;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+
+
+
+
+/*Nagłówek ze zdjęciem*/
+
+.slider
+{
+    position: relative;
+}
+
+
+.heading-box
+{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 3%;
+}
+
+.heading-box h1
+{
+    font-family: 'Goldman', cursive;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/*O nas*/
+.about
+{
+    /*background-image: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
+    /*border-radius: 10px;*/
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    width: 1000px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.about-title
+{
+    padding: 10px;
+}
+
+.about-title-2
+{
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(255,162,9);
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: auto;
+    width: 250px;
+}
+
+.about-text
+{
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.about-text h1
+{
+    margin-top: 0px;
+    color: rgb(255,162,9);
+    text-align: center;
+    font-family: 'Goldman', cursive;
+}
+
+.about-title-2 h4
+{
+    margin: 0;
+}
+
+/*Oferowane usługi*/
+
+.services-offered
+{
+    margin-top: 20px;
+    background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
+    padding-bottom: 20px;
+    /* width: 100%; */
+}
+
+.services-list
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.single-service
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.single-service p
+{
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.single-service i
+{
+    padding: 20px;
+    color: rgb(255,162,9);
+}
+
+.offer-text
+{
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.offer-text h4
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid rgb(255,162,9);
+    border-radius: 10px;
+}
+
+
+/* oferowane produkty */
+
+.lista-produktow
+{
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.produkt-img-lewy
+{
+    margin: auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.produkt-img-prawy
+{
+    margin: auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.produkt-text
+{
+    /* margin: auto; */
+    flex-direction: column;  
+    /* color: white; */
+    text-align: justify;
+    color: rgb(255,162,9);
+    list-style-type: square;
+    padding-top: 80px;
+}
+
+.produkt-text h4
+{
+
+    color: rgb(255,162,9);
+    border-bottom: 2px solid rgb(255,162,9);
+}
+
+.produkt-text span {
+    color: white;
+}
+
+.produkt-text ul {
+    margin-bottom: 0;
+    list-style-type: circle;
+}
+
+
+
+
+
+/* Container z tekstem koncowym*/
+.container
+{
+    width: 1000px;
+    display: flex;
+}
+
+.container h2
+{
+    /* font-size: 24px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255,162,9);
+    font-family: 'Goldman', cursive;
+}
+
+
+/* Formularz kontaktowy */
+.formularz-kontaktowy
+{
+    background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: white !important;
+
+}
+
+/* Formularz kontaktowy z INTERNETU !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+form, input, select, textarea {
+    margin:0; 
+    padding:0; 
+    color:#ffffff;
+}
+
+form{
+    margin-bottom: 80px;
+}
+
+div.box {
+    margin: auto;
+    width:500px;
+    background: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
+    border-radius: 10px;
+    /*background:#222222;*/
+    position:relative;
+    top:50px;
+    /*border: 2px solid rgb(255,162,9);*/
+    padding: 10px;
+}
+
+div.box h1 { 
+    color:#ffffff;
+    font-size:24px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:2px solid rgb(255,162,9);
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    /*background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
+    /*border-bottom:2px solid rgb(255,162,9);*/
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:16px;
+    float:left;
+    width:120px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .wpis {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    /*border:2px solid rgb(255,162,9);*/
+}
+
+div.box .wiadomosc {
+    padding:7px 7px;
+    width:350px;
+    background:#262626;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .button	{
+    padding:4px 7px;
+    background:rgb(255,162,9);
+    color: black;
+    border:0px;
+    /*position: relative;*/
+    top:10px;
+    width:150px;
+    border: 2px solid rgb(255,162,9);
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.przycisk{
+    text-align: center;
+}
+
+
+@media(max-width: 991px)
+{
+    .navbar-nav li
+    {
+        margin-left: 5px;
+    }
+
+    /* stopka */
+
+    .dolny
+    {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flex-item img
+    {
+        width: 250px;
+        margin: 0 !important;
+    }
+
+    .copy
+    {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .flex-item
+    {
+        padding: 0 !important;
+        color: white;
+    }
+
+    .kontakt
+    {
+        width: 100%;
+        margin-top: 0px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+
+    .kontakt img
+    {
+        width: 5%;
+    }
+
+    .kontakt li
+    {
+        display: inline;
+    }
+
+    .kontakt li p
+    {
+        display: inline;
+        white-space: nowrap;
+        margin-right: 20px;
+    }
+
+    .flex-item .kontakt
+    {
+       margin-bottom: 0;
+    }
+
+    .gorny .flex-container
+    {
+        height: 12em;
+        /*display: flex;*/
+
+    }
+
+
+    /* Nagłowek ze zdjeciem*/
+
+    .heading-box
+    {
+        left: 1%;
+    }
+
+    .heading-box h1
+    {
+        font-size: 22px;
+    }
+
+    /* about */
+    .about
+    {
+        width: 800px;
+    }
+
+
+    /*oferowane usługi */
+    .services-list
+    {
+        flex-direction: column;
+    }
+
+
+    /*produkty*/
+    .produkt-img-lewy
+    {
+        flex-direction: column-reverse;
+    }
+
+    .produkt-img-prawy
+    {
+        flex-direction: column;
+    }
+
+    .produkt-text
+    {
+        font-size: 16px;
+        padding-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .produkt-text h4
+    {
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    .lista-produktow
+    {
+        padding-top: 0px;
+    }
+
+
+
+    /* formularz kontaktowy*/
+    div.box {
+        width:400px;
+
+    }
+
+    div.box .wiadomosc {
+        width:350px;
+        margin-left: 15px;
+    }
+
+    /* Container z tekstem zachęcającym*/
+    .container
+    {
+        width: 800px;
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media(max-width: 670px)
+{
+    /* Nagłowek ze zdjeciem*/
+    .heading-box h1
+    {
+        font-size: 16px;
+    }
+
+    .slider
+    {
+        width: 400px;
+    }
+
+
+    .heading-box
+    {
+        width: 50px;
+        top: 75%;
+        left: 3%;
+    }
+    
+
+    /* about */
+    .about
+    {
+        width: 400px;
+    }
+
+    /* Container z tekstem zachęcającym*/
+    .container
+    {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    /* stopka */
+    .gorny
+    {
+        width: 100%;
+    }
+
+    .copy
+    {
+        font-size: 14px;
+    }
+
+    .flex-item img
+    {
+        width: 200px;
+    }
+
+    .kontakt li i
+    {
+        font-size: 17px;
+    }
+
+    .kontakt li p
+    {
+        font-size: 17px;
+        
+    }
+
+    /*Oferowane usługi*/
+
+    .services-offered
+    {
+        width: 100%;
+    }
+
+    /*produkty*/
+    .produkt-text h4
+    {
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .produkt-text
+    {
+        font-size: 12px;
+    }
+
+    .lista-produktow img
+    {
+        margin: auto;
+    }
+    
+}
+

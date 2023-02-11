@@ -1,23 +1,15 @@
 
-<!-- [![MIT License][license-shield]][license-url] -->
-
-
 # TradeCAD
 Website for design office. You can see [_here_](https://lukbartsch.github.io/TradeCAD/).
-
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+* [License](#license)
 
 
 ## General Information
@@ -33,10 +25,11 @@ The website was created for the needs of a newly opened company that designs mac
 * ![PHP][PHP-shield]
 
 
-## Setup
-<!-- What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Features
 
-Proceed to describe how to install / setup one's local environment / get started with the project. -->
+At the bottom of the page there is a contact form using PHP to send e-mails to the server and then to the recipient (website owner).
+
+![image](https://user-images.githubusercontent.com/98742733/218282658-ce005f92-cec1-4f91-b7fc-0f3007f2a07f.png)
 
 
 ## Project Status
@@ -50,9 +43,8 @@ Created by [@LukBartsch](https://github.com/LukBartsch) - feel free to contact m
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## License
+This project is open source and available under the MIT License.
 
 
 [github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white

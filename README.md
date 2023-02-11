@@ -8,6 +8,7 @@ Website for design office. You can see [_here_](https://lukbartsch.github.io/Tra
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Project Status](#project-status)
+* [Sources](#sources)
 * [Contact](#contact)
 * [License](#license)
 
@@ -35,6 +36,10 @@ At the bottom of the page there is a contact form using PHP to send e-mails to t
 ## Project Status
 The website is now complete and ready to be deployed to the server. The information on the website is updated on a regular basis.
 
+## Sources
+The photos used on the website come from free sources:
+* www.pexels.com
+* www.subtlepatterns.com
 
 ## Contact
 Created by [@LukBartsch](https://github.com/LukBartsch) - feel free to contact me!

@@ -1,23 +1,10 @@
 
 body
 {
-    background-color: rgb(255,162,9);
-    background-color: rgb(255,171,10);
-    background-color: rgb(255,178,10);
-    background-color: rgba(255,186,12,0);
-    /* background: url("img/dark-honeycomb.png") !important; from www.subtlepatterns.com */
-
     background: linear-gradient(rgb(38,38,38,0.7), rgb(38,38,38,0.7)), url("img/copper-g02eade71b_1920_6.jpg") no-repeat center fixed;
     background-size: cover;
     background-color: #3a3a3a;
-
     margin-top: 100px;
-    /*color: white;*/
-
-
-   
-    /*opacity: 0.2;
-    filter: alpha(opacity=20);*/
 
 }
 
@@ -26,7 +13,6 @@ body
 nav
 {
     background: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
-    /*height: 5em;*/
     
 }
 
@@ -34,9 +20,6 @@ nav img
 {
     position: relative;
     width: 250px;
-    /*left: -10px;*/
-    /*top: -20px;*/
-    /*padding: 10px;*/
     margin-left: 10px;
 }
 
@@ -189,8 +172,6 @@ nav img
 /*O nas*/
 .about
 {
-    /*background-image: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
-    /*border-radius: 10px;*/
     display: flex;
     margin: auto;
     margin-top: 150px;
@@ -247,7 +228,6 @@ nav img
     margin-top: 20px;
     background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
     padding-bottom: 20px;
-    /* width: 100%; */
 }
 
 .services-list
@@ -326,9 +306,7 @@ nav img
 
 .produkt-text
 {
-    /* margin: auto; */
     flex-direction: column;  
-    /* color: white; */
     text-align: justify;
     color: rgb(255,162,9);
     list-style-type: square;
@@ -350,8 +328,6 @@ nav img
     margin-bottom: 0;
     list-style-type: circle;
 }
-
-
 
 
 
@@ -384,8 +360,6 @@ nav img
 
 }
 
-/* Formularz kontaktowy z INTERNETU !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 
 form, input, select, textarea {
     margin:0; 
@@ -402,10 +376,8 @@ div.box {
     width:500px;
     background: url("img/dark-honeycomb.png"); /*from www.subtlepatterns.com*/
     border-radius: 10px;
-    /*background:#222222;*/
     position:relative;
     top:50px;
-    /*border: 2px solid rgb(255,162,9);*/
     padding: 10px;
 }
 
@@ -420,8 +392,6 @@ div.box h1 {
 div.box label {
     width:100%;
     display: block;
-    /*background: url("img/dark-honeycomb.png") !important; /*from www.subtlepatterns.com*/
-    /*border-bottom:2px solid rgb(255,162,9);*/
     padding:10px 0 10px 0;
 }
 
@@ -443,7 +413,6 @@ div.box .wpis {
     border-top: 1px double #171717;
     border-left:1px double #333333;
     border-right:1px double #333333;
-    /*border:2px solid rgb(255,162,9);*/
 }
 
 div.box .wiadomosc {
@@ -462,7 +431,6 @@ div.box .button	{
     background:rgb(255,162,9);
     color: black;
     border:0px;
-    /*position: relative;*/
     top:10px;
     width:150px;
     border: 2px solid rgb(255,162,9);
@@ -543,7 +511,6 @@ div.box .button	{
     .gorny .flex-container
     {
         height: 12em;
-        /*display: flex;*/
 
     }
 
